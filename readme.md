@@ -40,7 +40,7 @@ Proje, gerçek kurum içi doküman süreçlerinden yola çıkarak sade, anlaşı
 
 Bekleyen işlem özetleri ve kullanıcıya ait aksiyon kartları.
 
-![Dashboard](assets/screenshots/01-dashboard.png)
+![Dashboard](assets/screenshots/qlite1.png)
 
 ---
 
@@ -48,7 +48,7 @@ Bekleyen işlem özetleri ve kullanıcıya ait aksiyon kartları.
 
 Doküman yönetimi, sistem altyapıları ve bekleyen işler için üst menü yapısı.
 
-![Navigation Menu](assets/screenshots/02-navigation-menu.png)
+![Navigation Menu](assets/screenshots/qlite2.png)
 
 ---
 
@@ -56,7 +56,7 @@ Doküman yönetimi, sistem altyapıları ve bekleyen işler için üst menü yap
 
 Doküman kodu, başlık, durum, tür, tarih, klasör ve okuma durumu gibi alanlara göre filtreleme yapılabilir.
 
-![Document List Filter](assets/screenshots/03-document-list-filter.png)
+![Document List Filter](assets/screenshots/qlite3.png)
 
 ---
 
@@ -64,7 +64,7 @@ Doküman kodu, başlık, durum, tür, tarih, klasör ve okuma durumu gibi alanla
 
 Dokümanlar sistem içerisinde salt okunur olarak görüntülenebilir.
 
-![Online Viewer](assets/screenshots/04-online-viewer.png)
+![Online Viewer](assets/screenshots/qlite4.png)
 
 ---
 
@@ -72,7 +72,7 @@ Dokümanlar sistem içerisinde salt okunur olarak görüntülenebilir.
 
 Dokümana ait genel bilgiler, yayın/versiyon bilgileri ve okuma durumu tek ekranda takip edilebilir.
 
-![Document Detail](assets/screenshots/05-document-detail.png)
+![Document Detail](assets/screenshots/qlite5.png)
 
 ---
 
@@ -82,15 +82,15 @@ Doküman hazırlama süreci adım adım ilerleyen bir yapı ile tasarlanmıştı
 
 #### 1. Doküman Bilgileri
 
-![Document Create Step 1](assets/screenshots/06-document-create-step-1.png)
+![Document Create Step 1](assets/screenshots/qlite6.png)
 
 #### 2. Bağlı Alanlar
 
-![Document Create Step 2](assets/screenshots/07-document-create-step-2.png)
+![Document Create Step 2](assets/screenshots/qlite7.png)
 
 #### 3. Kaynak Seçimi
 
-![Document Create Upload](assets/screenshots/08-document-create-upload.png)
+![Document Create Upload](assets/screenshots/qlite8.png)
 
 ---
 
@@ -98,11 +98,11 @@ Doküman hazırlama süreci adım adım ilerleyen bir yapı ile tasarlanmıştı
 
 Taslak dokümanlar düzenlenebilir, silinebilir veya onay akışına alınabilir.
 
-![Draft Detail](assets/screenshots/09-draft-detail.png)
+![Draft Detail](assets/screenshots/qlite9.png)
 
 Onay bekleyen dokümanlarda onaylama, revizyona gönderme ve reddetme işlemleri yapılabilir.
 
-![Approval Actions](assets/screenshots/10-approval-actions.png)
+![Approval Actions](assets/screenshots/qlite10.png)
 
 ---
 
@@ -110,7 +110,7 @@ Onay bekleyen dokümanlarda onaylama, revizyona gönderme ve reddetme işlemleri
 
 Yayındaki dokümanlar için revizyon başlatılabilir ve revizyon gerekçesi takip edilebilir.
 
-![Revision Management](assets/screenshots/11-revision-management.png)
+![Revision Management](assets/screenshots/qlite11.png)
 
 ---
 
@@ -118,11 +118,11 @@ Yayındaki dokümanlar için revizyon başlatılabilir ve revizyon gerekçesi ta
 
 Yöneticiler kullanıcılara doküman hazırlama veya revizyon görevleri atayabilir.
 
-![Assignment Admin](assets/screenshots/12-assignment-admin.png)
+![Assignment Admin](assets/screenshots/qlite12.png)
 
 Kullanıcılar kendilerine atanan işleri ayrı bir görev ekranından takip edebilir.
 
-![My Tasks](assets/screenshots/13-my-tasks.png)
+![My Tasks](assets/screenshots/qlite13.png)
 
 ---
 
@@ -130,9 +130,9 @@ Kullanıcılar kendilerine atanan işleri ayrı bir görev ekranından takip ede
 
 Doküman şablonları listelenebilir, detayları görüntülenebilir ve versiyonları takip edilebilir.
 
-![Template List](assets/screenshots/14-template-list.png)
+![Template List](assets/screenshots/qlite14.png)
 
-![Template Detail](assets/screenshots/15-template-detail.png)
+![Template Detail](assets/screenshots/qlite15.png)
 
 ---
 
@@ -140,11 +140,11 @@ Doküman şablonları listelenebilir, detayları görüntülenebilir ve versiyon
 
 Organizasyon birimleri, kullanıcı erişimleri ve onay akışları yönetilebilir.
 
-![Organization Units](assets/screenshots/16-organization-units.png)
+![Organization Units](assets/screenshots/qlite16.png)
 
-![User Access Management](assets/screenshots/17-user-access-management.png)
+![User Access Management](assets/screenshots/qlite17.png)
 
-![Approval Flow Builder](assets/screenshots/18-approval-flow-builder.png)
+![Approval Flow Builder](assets/screenshots/qlite18.png)
 
 ---
 
@@ -152,7 +152,7 @@ Organizasyon birimleri, kullanıcı erişimleri ve onay akışları yönetilebil
 
 Güvenlik açısından kritik işlemler denetim kayıtları üzerinden takip edilebilir.
 
-![Audit Logs](assets/screenshots/19-audit-logs.png)
+![Audit Logs](assets/screenshots/qlite19.png)
 
 ---
 
@@ -160,12 +160,12 @@ Güvenlik açısından kritik işlemler denetim kayıtları üzerinden takip edi
 
 > Bu alanı paylaşmak istediğin teknik detaylara göre güncelle.
 
-- Frontend: `...`
-- Backend: `...`
-- Database: `...`
-- Authentication / Authorization: `...`
-- Document Viewer: `...`
-- Deployment: `...`
+- Frontend: react.js
+- Backend: c# .net 9
+- Database: Mssql
+- Authentication / Authorization: Kendi SSO katmanım
+- Document Viewer: OnlyOffice Docker
+- Deployment: Docker
 
 ---
 
